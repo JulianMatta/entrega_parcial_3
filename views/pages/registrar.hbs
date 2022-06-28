@@ -1,0 +1,23 @@
+<form method="post" action="/alta" class="container mt-5" enctype="multipart/form-data">
+    <div class="m-1  row justify-content-center">
+        <div class="bg-light shadow p-5 m-3 rounded col-lg-4 col-md-6 col-sm-8 ">
+            <h2 class="mt-1 text-center font__bienvenido">Registrate</h2>
+            <div class="row justify-content-center">       
+                <img class="col-xxl-3 col-lg-3 col-6 align-center m-1" src="../../../assets/images/registrar.svg" alt="login">
+                <input type="email" class="m-3 form-control" name="username" placeholder="Email"  autofocus="" required />
+                <input type="text" class="m-3 form-control" name="password" placeholder="Password" required/>
+                <input type="text" class="m-3 form-control" name="nombre" placeholder="Nombre" required/>
+                <input type="text" class="m-3 form-control" name="direccion" placeholder="Direccion" required/>
+                <input type="number" min="1" max="120" class="m-3 form-control" name="edad" placeholder="Edad" required/>
+                <input type="text" class="m-3 form-control" name="codNacion" placeholder="Cod Pais +54" required/>
+                <input type="text" class="m-3 form-control" name="codArea" placeholder="Cod Area 11" required/>
+                <input type="text" class="m-3 form-control" name="numTelefono" placeholder="Telefono 12345678" required/>
+                <label for="Foto">Foto</label>
+                <input type="file" id="foto" class="m-3 form-control" name="archivo" placeholder="Foto" required/>
+                <button class="m-1 btn btn-lg btn-outline-primary btn-block" type="submit">Alta</button>
+                <label> ya tienes cuenta? <a href="/login"  class="btn align-item-center badge bg-success text-ligth msj-block">Ingresa</a></label>
+            </div>  
+            <span class="badge bg-warning text-dark">{{error}}</span>        
+        </div>
+    </div>
+</form>

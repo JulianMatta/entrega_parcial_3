@@ -1,0 +1,31 @@
+.saludo{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: aquamarine;
+    font-size: 2rem;
+    img{
+        margin: 1rem;
+        align-self: center;
+        width: 6.4rem;
+        border-radius: 10rem;
+    }
+    input{
+        margin: 2rem;
+        padding: 1rem 3rem;
+        background-color: tomato;
+        border: 0;
+        color: whitesmoke;
+        &:hover{
+            cursor: pointer;
+        
+        }
+        &:active{
+            transform: scale(0.9);
+        
+        }
+    }
+}

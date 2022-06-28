@@ -1,0 +1,18 @@
+[2022-06-25T22:43:24.488] [ERROR] error - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carrito"
+[2022-06-25T22:43:47.239] [ERROR] error - CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carrito"
+[2022-06-26T14:53:50.548] [ERROR] error - error a enviar un sms Error: The 'To' number 01134925771 is not a valid phone number.
+[2022-06-26T15:06:26.516] [ERROR] error - error a enviar un sms Error: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+[2022-06-26T18:08:18.017] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:08:21.183] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:11:37.725] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:11:39.532] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:13:33.190] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:13:35.150] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:15:45.057] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:15:46.986] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:16:35.909] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:16:37.747] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:19:23.753] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:19:24.687] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.
+[2022-06-26T18:22:05.657] [ERROR] error - error al enviar un mail Error: No recipients defined
+[2022-06-26T18:22:06.722] [ERROR] error - error a enviar un whatsapp Error: The 'To' number whatsapp:undefined is not a valid phone number.

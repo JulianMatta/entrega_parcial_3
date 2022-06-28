@@ -1,0 +1,55 @@
+.dialogo{
+    @media (max-width:768px) {
+        width: 80vw;
+        left:auto;
+    }
+    border-radius: 1rem;
+    position: absolute; 
+    top:50vh; 
+    left: 50vw;
+    background-color: white; 
+    border:0;
+    .dialogo__btn-cierra{
+        position: relative;
+        top: 10%;
+        left: 90%;
+        border: 0;
+        border-radius: 5rem;
+        padding: 1rem 1.5rem;
+        background-color:steelblue;
+        color: white;
+        &:hover{
+            cursor: pointer;
+        }
+        &:active{
+            transform: scale(.9,.9);
+        }
+    }
+}
+
+.dialogo-chat{
+    background-color: whitesmoke;
+    width: 50rem;
+
+}
+
+
+
+
+@keyframes neon {
+    0% {
+        color: #1a1a1a;
+        text-shadow: hsl(305, 100%, 88%);
+    }
+    20% {
+        color: #1a1a1a;
+        text-shadow: 0 0 10px steelblue;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        color: #1a1a1a;
+        text-shadow: 0 0 10px steelblue;
+    }
+}
