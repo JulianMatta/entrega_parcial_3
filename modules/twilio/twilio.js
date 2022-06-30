@@ -7,7 +7,7 @@ const cliente = twilio(process.env.ACCOUNTSID, process.env.AUTHTOKEN);
 async function enviarSms(destinatario, mensaje){
     try{
         const respuesta = await cliente.messages.create({
-            from: "+19785103201",
+            from: "+14155238886",
             to: destinatario,
             body: mensaje
 
